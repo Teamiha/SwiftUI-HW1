@@ -53,24 +53,25 @@ struct ContentView: View {
                 }
             }
         }
-    }
+    
     
 
     var button: some View {
         ZStack{
             Capsule()
-                .foregroundColor(.cyan)
+                .foregroundColor(.white)
                 .frame(width: 200, height: 100)
+                .shadow(color: .white, radius: 10)
             Button(action: {actionScript()}) {
                 Text(buttonText)
                     .font(.largeTitle)
                     .fontWeight(.bold)
             }
-            .padding(.bottom)
         }
+        .padding(.bottom)
     }
     
-
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

@@ -12,7 +12,6 @@
 		4E5C37CA282C5AC7008220F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E5C37C9282C5AC7008220F0 /* Assets.xcassets */; };
 		4E5C37CD282C5AC7008220F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E5C37CC282C5AC7008220F0 /* Preview Assets.xcassets */; };
 		4E5C37D4282C617C008220F0 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C37D3282C617C008220F0 /* CircleView.swift */; };
-		4E5C37D8282C7667008220F0 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5C37D7282C7667008220F0 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		4E5C37C9282C5AC7008220F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E5C37CC282C5AC7008220F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E5C37D3282C617C008220F0 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
-		4E5C37D7282C7667008220F0 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				4E5C37C5282C5AC6008220F0 /* SwiftUI_HW1App.swift */,
-				4E5C37D7282C7667008220F0 /* test.swift */,
 				4E5C37C7282C5AC6008220F0 /* ContentView.swift */,
 				4E5C37D3282C617C008220F0 /* CircleView.swift */,
 				4E5C37C9282C5AC7008220F0 /* Assets.xcassets */,
@@ -144,7 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E5C37D4282C617C008220F0 /* CircleView.swift in Sources */,
-				4E5C37D8282C7667008220F0 /* test.swift in Sources */,
 				4E5C37C8282C5AC6008220F0 /* ContentView.swift in Sources */,
 				4E5C37C6282C5AC6008220F0 /* SwiftUI_HW1App.swift in Sources */,
 			);
