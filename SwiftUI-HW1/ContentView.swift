@@ -60,7 +60,7 @@ struct ContentView: View {
         ZStack{
             Capsule()
                 .foregroundColor(.white)
-                .frame(width: 200, height: 100)
+                .frame(width: 150, height: 50)
                 .shadow(color: .white, radius: 10)
             Button(action: {actionScript()}) {
                 Text(buttonText)
